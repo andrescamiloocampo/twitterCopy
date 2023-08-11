@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
+}
+
+.threads-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;          
+}
+
+.threads-principal{
+    width: 50%;    
+    border:solid 1px gainsboro;    
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column; 
+    overflow-y: auto;    
+}
+
+.threads-header{
+    width: 100%;
+    height: 50px;    
+    display: flex;    
+}
+
+.header-contents{
+    width: 20%;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;     
+    font-size: 20px;    
+}
+
+.arrow-left{
+    cursor: pointer;    
+    color: black;
+}
+
+.header-contents h2{
+    font-size: 22px;        
+}
+
+.thread{
+    width: 100%;
+    height: 200px;        
+}
+
+.author-container{
+    display: flex;
+}
+
+.user-info-container{
+    font-size: 13px;
+}
+
+.user-data-thread{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    margin-top: -1%;    
+    margin: 2%;
+}
+
+.controls-container{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 20%;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.controls-container button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 18px;
+}
+
+.dots{
+    font-size: 25px;
+    color: gray;
+}
+
+.publication-body{    
+    display: flex;
+    justify-content: left;
+    height: auto;
+    word-wrap: break-word;    
+    margin: 2.5%;
+}
+
+.thread-interactions{
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid 1px gainsboro;
+    border-left: none;
+    border-right: none;    
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-section{
+    width: 100%;
+    padding: 2%;
+    height: auto;    
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gainsboro;
+}
+
+.post-section input{
+    width: 70%;
+    border: none;
+    font-size: 20px;
+}
+
+.post-section button{
+    background-color: rgb(26, 140, 216);
+    color:white;
+    font-weight: 800;    
+    padding: 1% 3%;
+    border-radius: 60px;
+}
+
+.comment{    
+    border-bottom:solid 1px gainsboro;
+    display: flex;    
+    flex-direction: column;
+    padding: 2%;
+}
+
+.comment-body{
+    margin-left: 8%;
+    margin-top: 3px;
+}
+
+.user-comment-data{
+    display: flex;    
+    align-items: center;
+    padding-left: .5%;
+}
+
+.comment-controls{    
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 8%;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.comment-username{
+    margin-right: 10px;
+}
+
+.date{
+    margin-left: 5px;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.button-blue{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;    
+}
+
+.button-black{
+    background-color:black;    
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;    
+}
+
+.button-blue:hover{
+    background-color: rgb(56, 169, 245);
+}

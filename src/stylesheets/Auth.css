@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
+  }
+  
+  .Auth{
+    width: 100%;
+    min-height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+  
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;  
+    border-radius: 15px;
+    width: 40%;
+    min-height: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container input{
+    padding: 2% 10% 2% 10%;  
+    width: 70%;
+    font-size: larger;  
+    margin-top: 15px;
+    border: 1px solid rgb(206, 204, 204);
+  }
+  
+  .logo-container{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+  
+  .logo-container img{
+    width: 100%;
+  }
+  
+  .title-container{  
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .title-container h1{
+    font-size: 28px;
+  }
+  
+  .form-container input:last-of-type{
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-bottom: 5%;
+  }
+
+  .link{
+    margin-bottom: 5%;
+  }

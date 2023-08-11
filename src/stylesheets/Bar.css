@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+.container{
+    width: 25%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0%;
+}
+
+.container-logo{
+    margin-left: 14%;
+    margin-top: 5%;
+    width: 40px;
+    height: 40px;
+    padding: 2%;
+    border-radius: 60px;
+}
+
+.container-logo:hover{
+    background-color: gainsboro;
+}
+
+.container-logo img{
+    width: 100%;
+}
+
+.container-iconos{
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-iconos Button:first-of-type{
+    margin-bottom: 10%;
+}
+
+.icon{
+    width: 25px;        
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;        
+    cursor: pointer;
+}
+
+.icon:focus{
+    font-weight: bold;
+}
+
+.icon img{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.user-section{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;    
+    padding: 10%;
+    overflow: hidden;
+    border-radius: 50px;    
+    background-color: white;
+}
+
+.user-section h1{
+    font-size: 12px;
+}
+
+.hash-section h2{
+    font-size: 10px;
+}
+
+.sub-user-section{
+    display: flex;    
+    width: 100%;
+    flex-wrap: wrap;    
+}
+.user-section:hover{
+    background-color: rgb(235, 232, 232);
+}
+
+.user-section section{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.hash-section{
+    width: 100%;
+    color: rgb(172, 170, 170);    
+    display: flex;
+    justify-content: center;
+}
+
+.post-button{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;    
+}
+
+.link{    
+    color: black;
+}
+
+
+@media (max-width:620px) {    
+    .container-iconos p{
+        display: none;
+    }   
+    .container{
+        width: 10px;
+        align-items: center;        
+    }
+    .container-logo{
+        margin-left: -8%;
+        margin-top: 15%;
+        margin-bottom: -150%;
+    }
+    .icon{
+        width: 30px;
+    }    
+    .post-button{
+        display: none;
+    }
+    .user-section{
+        display: none;
+    }    
+}

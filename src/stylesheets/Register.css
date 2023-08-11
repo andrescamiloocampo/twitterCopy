@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.register-container{
+    background-color: gray;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form{
+    width: 40%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 15px;
+}
+
+.register-form input{
+    padding: 2% 10% 2% 10%;  
+    width: 70%;
+    font-size: larger;  
+    margin-top: 15px;
+    border: 1px solid rgb(206, 204, 204);
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 8%;
+    cursor: pointer;
+}

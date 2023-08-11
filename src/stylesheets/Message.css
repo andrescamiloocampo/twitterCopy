@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.message-container{
+    width: 100%;
+    height: 100vh;    
+    display: flex;    
+    /* background-color: red; */
+}
+
+.message-dashboard{
+    width: 30%;
+    height: 100vh;    
+    border-left: solid;    
+    border-right: solid;
+    border-width: .5px;
+    border-color: gainsboro;
+    display: flex; 
+    flex-direction: column;    
+    padding: 1%;
+}
+
+.message-dashboard header{    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-message-container{    
+    width: 15%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.Ai{
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.content-message-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    height: 40%;    
+    justify-content: space-evenly;
+}
+
+
+.content-message-container h1{
+    font-size: 30px;
+}
+
+.content-message-container button{
+    width: 55%;
+    padding: 3%;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 60px;
+}
+
+.chat-container{    
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    align-items: center;
+    border-right: solid 1px gainsboro;
+}
+
+.chat-container article{
+    width: 100%;
+    height: 40px;    
+    display: flex;    
+}
+
+.chat-container article input{
+    width: 85%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid gainsboro;
+}
+
+.chat-container article button{
+    width: 15%;
+    color: white;
+    background-color: rgb(29, 155, 240);
+}
+
+.chat-messages{    
+    display: flex;
+    flex-direction: column;    
+    min-height: 85vh;
+    overflow-y: scroll;
+    background-color: gainsboro;
+}
+
+.message{        
+    width: 60%;
+    margin: 2%;
+    background-color: #fff;
+    height: auto;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;    
+    padding: 2%;
+    border-radius: 5px;    
+}
+
+.message-right{        
+    width: 60%;
+    margin: 2%;
+    margin-left: 38%;
+    background-color: white;
+    height: auto;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;    
+    padding: 2%;
+    border-radius: 5px;    
+}
+
+.message h1{
+    font-size: 10px;
+}
+
+.message-right h1{
+    font-size: 10px;
+}
+
+.user-vitals{
+    width: 100%;
+    height: 10%;
+    padding: 2%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+}
+
+.online{
+    background-color: rgb(87, 214, 87);
+}
+
+.offline{
+    background-color: red;
+}
+
+.contacts{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-top: 5%;    
+    display: flex;
+    flex-direction: column;    
+}
+
+.contacts h1{
+    margin-bottom: 5%;
+}
+
+.contacts::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.contacts::-webkit-scrollbar-button:increment,.contacts::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contacts::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.contact{        
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(238, 234, 234);
+    cursor: pointer;
+    margin-bottom: 1%;    
+    display: flex;
+}
+
+.contact h3{
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 3%;
+}
+
+.chat-messages::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.search-contacts{
+    padding: 2%;
+    border-radius: 60px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.photo{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 60px;
+}
+

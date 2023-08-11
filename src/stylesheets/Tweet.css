@@ -1,0 +1,90 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container-tweet{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%; 
+  padding: 2vh;
+  padding-bottom: 5vh;
+  min-height: 30vh;  
+  border: .5px solid rgb(230, 229, 229);  
+  border-top: none;
+  cursor: pointer;
+  color: black;
+}
+
+.container-tweet:hover{
+  background-color: #f5f1f1;
+  .info-container{
+    background-color: #f5f1f1;
+  }  
+}
+
+.info-container{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  padding: 1%;  
+}
+
+.info-container p:last-of-type{
+  margin-left: 5px;
+  color: rgb(146, 146, 146);
+}
+
+.info-container p:first-of-type{
+  font-weight: bold;
+}
+
+.pImage{
+  width: 80%;
+  height: 50vh;
+  background-color: black;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+}
+
+.pImage img{
+  width: 100%;
+}
+
+.body-container{
+  display: flex;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 2%;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;    
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.buttons button{
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+.buttons button:hover{
+  background-color:rgb(230, 229, 229);
+}
+
+.buttons button img{
+  width: 100%;
+}
